@@ -8,113 +8,94 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              background-image: url('/images/sing2.jpg');
+              background-size: cover;  
+            }
+            #content {
+                text-align: center;
+                margin-top: 200px;
+                color:white;
+                            }   
+
+            </style>
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark justify-content-between">
+        <nav id="mainNavbar" class="navbar fixed-top navbar-expand-md navbar-dark bg-primary justify-content-between">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="/" class="navbar-brand text-warning"><strong> SSPL</strong></a>
+            <a href="/" id="nav6" class="navbar-brand"><strong> SSPL</strong></a>
             <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link text-warning" href="index.html"><strong> Home </strong></a>
+                <ul  class="navbar-nav">
+                    <li  class="nav-item active">
+                        <a  id="nav1" class="nav-link " href="index.html"><strong> Home </strong></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-warning" href="pages/trading.html">Trading</a>
+                        <a id="nav2" class="nav-link" href="pages/trading.html">Trading</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-warning" href="pages/manufacturing.html">Manufacturing</a>
+                        <a id="nav3" class="nav-link" href="pages/manufacturing.html">Manufacturing</a>
                     <li class="nav-item active">
-                        <a class="nav-link text-warning" href="pages/about.html">About</a>
+                        <a id="nav4" class="nav-link" href="pages/about.html">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-warning" href="pages/contact.html">Contact</a>
+                        <a id="nav5" class="nav-link" href="pages/contact.html">Contact</a>
                     </li>                    
                 </ul>
             </div>
          </nav>
-
-       
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
-       
         
-        <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-lg-6">
-                    <h4>Domain Hosting</h4>
-                    <p>Edit this text and tell your site visitors who you are. To edit, simply click directly on the text and add your own words. Use this text to go into more detail about your company. </p>
-                </div>
-                <div class="col-lg-6">
-                    <h4>Backup & Storage</h4>
-                    <p>Edit this text and tell your site visitors who you are. To edit, simply click directly on the text and add your own words. Use this text to go into more detail about your company. </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-lg-6">
-                    <h4>Domain Hosting</h4>
-                    <p>Edit this text and tell your site visitors who you are. To edit, simply click directly on the text and add your own words. Use this text to go into more detail about your company. </p>
-                </div>
-                <div class="col-lg-6">
-                    <h4>Backup & Storage</h4>
-                    <p>Edit this text and tell your site visitors who you are. To edit, simply click directly on the text and add your own words. Use this text to go into more detail about your company. </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="jumbotron text-center">
-                <h4>Edit this text and tell your site</h4>
-                <h4>Edit this text and tell your site</h4>
-                <h4>Edit this text and tell your site</h4>
-                <h4>Edit this text and tell your site</h4>            
-                
-                
+        <!-- 
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/sing.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/cylinder.JPG" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/sing2.jpg" alt="Third slide">
               </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12">
-                    <h4> All the Tools You Need to Succeed
-                    </h4>
-                </div>
+          </div></div> 
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row justify-content-start">
+         </div> -->
+         
+         <div id="content" class="container">
+            <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    
-                    <p>Edit this text and tell your site visitors who you are. To edit, simply click directly on the text and add your own words. Use this text to go into more detail about your company. Make sure to include information about how your company came to be. A strong “About” page helps establish credibility and professionalism and lets the visitor know more about you. </p>
-                </div>
-                <div class="col-lg-6">
-                    
-                    <p>Edit this text and tell your site visitors who you are. To edit, simply click directly on the text and add your own words. Use this text to go into more detail about your company. Make sure to include information about how your company came to be. A strong “About” page helps establish credibility and professionalism and lets the visitor know more about you. </p>
-                </div>
+                  
+                    <h2 class=>Welcome to SSPL</h1>
+                    <h4 class=>Local Roots,GLobal Presence</h1> 
+                    <h6>We Trade in Commodities, ferrous, non-ferrous metals</h6>
+                    <h6>Our Processing Plants recyle copper and aluminium</h6>
+                    <h6>Having global presence in more than 7 countries</h6>
+                </div> 
             </div>
-        </div>
+         </div>
+         
+    
+       
 
-
-
+     
+          
 
         
-
-        <script src="" async defer></script>
          <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
 </html>

@@ -1,8 +1,6 @@
-h1{
-    color: blue;
-}
+
 #navLinks{
-color: burlywood;
+color: black;
 }
 h1{
     margin-top: 55px;
@@ -12,5 +10,25 @@ h1{
     margin-top: 55px;
 }
 body{
-    background-color:#fafafa;  
+    background-color:#fafafa; 
+}
+.navbar.scrolled{
+    background: ghostwhite;
+}
+
+}
+#nav2{
+    color: white;
+}
+#nav3{
+    color: white;
+}
+#nav4{
+    color: white;
+}
+#nav5{
+    color: white;
+}
+#nav6{
+    color:whitesmoke;
 }
